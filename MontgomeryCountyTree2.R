@@ -1,4 +1,11 @@
-source('http://grimshawville.byu.edu/TrafficStops2018.R')
+#source('http://grimshawville.byu.edu/TrafficStops2018.R')
+
+dirstr <- as.character(getwd())
+filename <- "/MontgomerySpeeding.RData"
+
+path <- paste0(dirstr, filename)
+
+load(path)
 
 #Analysis:
 
